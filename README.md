@@ -23,7 +23,7 @@ For academic research use only.
 
 ## 2. 環境與專案取得方式
 
-### 2.1 開發／執行環境（建議）
+### 2.1 開發環境
 
 - 作業系統：Windows / Linux / macOS 皆可
 - Python：3.x（建議 3.8 以上）
@@ -40,13 +40,16 @@ For academic research use only.
 > # PyTorch 請依照官方說明安裝，本專題需支援CUDA
 > ```
 
-### 2.2 專案取得
+### 2.2 專案下載
 Reference: https://dl.acm.org/doi/10.1145/3589321
 
 Source Code: https://github.com/jlidw/SSIN
 
-施作本專題請直接 **clone 此 GitHub 專案**：
+施作本專題請直接 **clone 此 GitHub 專案的所有檔案並覆蓋於Source Code的根目錄**
 
+或是 **下載google drive連結** https://drive.google.com/file/d/17G49WsKw_zGoLSZ7OpZyl1Hn4EpJScgK/view?usp=sharing
+
+(因為github本身有檔案大小限制，沒辦法提供完整專案)
 ---
 
 ## 3. 資料準備
