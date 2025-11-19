@@ -312,13 +312,13 @@ main_train.py 會根據 --dataset 自動設定路徑（以 bw 為例）：
 
 `./output/BW_output/D16_L5_H12_TrainOn2012-2014_TestOn2012-2014-_1114-134857`
 
-若專案倉庫中已附上上述資料夾，則助教可以在 **不重新訓練** 的情況下完成評分與 ensemble，
-以取得與報告中完全一致的數據。
+專案已附上上述資料夾，助教可以在 **不重新訓練** 的情況下完成評分與 ensemble，
+以取得與報告中完全一致的結果。
 
 ### 11.1 不重新訓練，直接評分與 ensemble
 
 確認上述兩個資料夾存在於 ./output/BW_output/ 之下。
-使用 ensemble_csv.py：
+使用 **ensemble_csv.py**：
 指定上述兩個實驗所有 checkpoint 對應的 test_ret.csv，執行 ensemble。如是直接clone下git的檔案，則直接執行應能復現實驗結果，就是只會跑Greedy forward selection與Hill climbing algorithm湊ensemble組合，而不是重新訓練。
 
 ### 11.2 重新訓練（結果接近但不一定完全相同）
