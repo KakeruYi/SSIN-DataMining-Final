@@ -99,15 +99,14 @@ main_train.py 會根據 --dataset 自動設定路徑（以 bw 為例）：
 一個典型的實驗資料夾內部結構會類似：
 
 + ./output/BW_output/main/D16_L4_H8_TrainOn2012-2014_TestOn2012-2014-_1114-041057/
-  + args.json                     # 參數設定記錄
+  + args_settings.txt                     # 參數設定記錄
   + train/
     + checkpoints_path/         # 每 10 個 epoch 儲存一個 checkpoint
-      + ckpt_epoch_10.pth
-      + ckpt_epoch_20.pth
+      + checkpoint_10epoch.pth
+      + checkpoint_20epoch.pth
       + ...
   + test/
     + test_ret.csv              # 全部 epoch 跑完後的最終 testing 結果
-    + 其他中間輸出（如有）
 
 
 >注意：
