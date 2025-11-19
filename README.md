@@ -10,7 +10,7 @@ For academic research use only.
 
 ## 1. 專案簡介
 
-本專題以原始 **SSIN（Spatio-Temporal Sequence Imputation Network）** 為基礎，  
+本專題以原始 **SSIN（Self-Supervised Learning for Rainfall Spatial Interpolation）** 為基礎，  
 針對模型架構與超參數（特別是Transformer Encoder的架構、層數、multi-head數量、embedding維度）進行調整，  
 並在 **PEMS-BW**（程式中以 `bw` 表示）資料集上完成訓練、評估與 ensemble，  
 最後在RMSE的指標上達到 **0.9665** 的表現，比原始論文的成績進步約2%，NSE的表現則為0.5362，進步3.96%。
