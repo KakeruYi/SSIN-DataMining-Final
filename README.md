@@ -282,7 +282,9 @@ main_train.py 會根據 --dataset 自動設定路徑（以 bw 為例）：
 ### 10.1 使用流程
 
 確定「實驗 A」與「實驗 B」底下的所有 checkpoint 都已經由 eval_all_checkpoints.py 產生對應的 test_ret.csv。
+
 `python ensemble_csv.py`
+
 程式會逐一測試各種checkpoint組合進行ensemble(利用Greedy forward selection與Hill climbing algorithm)，輸出對應分數，
 並可找到最終表現約 0.9665 的組合。
 
