@@ -4,6 +4,8 @@ Optimize the SSIN by adjusting its architecture and parameters to improve perfor
 For academic research use only.
 
 ---
+### 組員: M11407301 黃奕翔、M11407321 方柏又、M11407322 陳弘典、M11407302 陳美雯、M11407329 藍煒翔
+---
 
 ## 1. 專案簡介
 
