@@ -45,11 +45,16 @@ Reference: https://dl.acm.org/doi/10.1145/3589321
 
 Source Code: https://github.com/jlidw/SSIN
 
-施作本專題請直接 **clone 此 GitHub 專案的所有檔案並覆蓋於Source Code的根目錄**
+Dataset & Output: https://drive.google.com/file/d/1jNp8HtFMmmA3pRHfJOYVkLPIivENroEG/view?usp=sharing
 
-或是 **下載google drive連結** https://drive.google.com/file/d/17G49WsKw_zGoLSZ7OpZyl1Hn4EpJScgK/view?usp=sharing
+施作本專題請直接 **clone 此 GitHub 專案與 Dataset & Output壓縮檔** (因為github本身有檔案大小限制，沒辦法提供完整checkpoint與dataset)
 
-(因為github本身有檔案大小限制，沒辦法提供完整專案)
+1. 先解壓縮本Github專案，你會看到SSIN資料夾
+2. 將Dataset & Output 解壓縮放到SSIN目錄下(讓data與output資料夾在SSIN中)
+3. 即可開始依步驟使用。
+
+或是 **直接下載google drive連結** https://drive.google.com/file/d/17G49WsKw_zGoLSZ7OpZyl1Hn4EpJScgK/view?usp=sharing 本連結可以直接下載使用，無須其他操作。
+
 ---
 
 ## 3. 資料準備
